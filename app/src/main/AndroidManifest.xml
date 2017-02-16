@@ -14,12 +14,16 @@
 
         </activity>
         <activity android:name=".ListViewActivity">
+        </activity>
+        <activity android:name=".DialogFragmentActivity">
+        </activity>
+        <activity android:name=".ListMainActivity">
+        </activity>
+        <activity android:name=".ExpandableListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".DialogFragmentActivity">
         </activity>
     </application>
 
