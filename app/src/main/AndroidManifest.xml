@@ -20,6 +20,8 @@
         <activity android:name=".ListMainActivity">
         </activity>
         <activity android:name=".ExpandableListViewActivity">
+        </activity>
+        <activity android:name=".SearchListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

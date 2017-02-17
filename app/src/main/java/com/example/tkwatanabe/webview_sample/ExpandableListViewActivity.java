@@ -42,6 +42,7 @@ public class ExpandableListViewActivity extends AppCompatActivity {
                         {"チェロ", "大型の低音域の絃楽器"}
                 }
         };
+        //レイアウトからExpandableListViewを取得
         ExpandableListView elv = (ExpandableListView)findViewById(R.id.elv);
         //(1)アダプターに渡すためのリストを準備
         List<Map<String, String>> g_list = new ArrayList<>();
